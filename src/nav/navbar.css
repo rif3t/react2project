@@ -1,0 +1,47 @@
+.nav{
+    background-color: transparent !important ;
+    position: absolute;
+    width: 100%;
+    /* left: 35%; */
+    color: white;
+    z-index: 1;
+}
+.all{
+    
+   color: rgb(255, 255, 255) !important;
+   font-weight: bold;
+   font-size: 35px;
+}
+.navli{
+    color: rgb(255, 255, 255) !important;
+    font-size: 25px;
+    /* font-weight: bold; */
+    margin-left: 10px;
+}
+.navli:hover{
+    scale: 1.1;
+    color: darkkhaki !important;
+}
+.sub{
+    font-weight: lighter;
+    
+
+}
+.sub::first-letter{
+    color: rgb(255, 255, 255) !important;
+    
+}
+
+@media only screen and (max-width: 555px) {
+    .navli{
+        color: black !important;
+        font-size: 20px;
+    }
+  }
+ .NavbarBrand{
+    text-shadow: 0px 0px 10px orange,
+                 0px 0px 10px orange,   
+                 0px 0px 10px orangered ,  
+                 0px 0px 10px orangered       
+    ;
+}
